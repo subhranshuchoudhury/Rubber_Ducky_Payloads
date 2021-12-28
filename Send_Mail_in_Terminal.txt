@@ -7,13 +7,13 @@ CTRL ALT t
 REM Go to any folder you want
 STRING cd Downloads/
 ENTER
-REM hii is subject here
+REM TEST is subject here
 STRING mail -s "TEST" subhransuchoudhury00@gmail.com
 ENTER
 REM cc: for forewarding mail
 CONTROL d
-REM BODY HERE
-STRING this is a rubber ducky test.
+REM TYPE BODY HERE
+STRING this is body.
 ENTER
 CONTROL d
 DELAY 7000
