@@ -1,0 +1,21 @@
+DEFAULT_DELAY 100
+REM WATCH THIS VIDEO: https://www.youtube.com/watch?v=XYLzDp8LBXk
+REM SETUP YOUR SMTP MAIL SERVER.
+REM OPEN TERMINAL
+CTRL ALT t
+REM Go to any folder you want
+STRING cd Downloads/
+ENTER
+REM hii is subject here
+STRING mail -s "TEST" subhransuchoudhury00@gmail.com
+ENTER
+REM cc: for forewarding mail
+CONTROL d
+REM BODY HERE
+STRING this is a rubber ducky test.
+ENTER
+CONTROL d
+DELAY 7000
+STRING exit
+ENTER
+ENTER
