@@ -1,4 +1,4 @@
-# Linux_Rubber_Ducky_Script
+# Readme!
 what is rubber ducky: https://www.youtube.com/watch?v=tqIOsW9ociY
 
 # Make Your Own Rubber Ducky In 500 INR:
